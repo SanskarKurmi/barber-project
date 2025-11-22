@@ -1,0 +1,30 @@
+.products-section {
+  padding: 90px 0;
+  background-color: #f8f5ef;
+}
+
+.product-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  /* box-shadow: 0 25px 45px rgba(15, 15, 15, 0.06); */
+}
+
+.product-photo {
+  background-color: #f8f5ef;
+  height: 220px;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #333333;
+}
+
+.product-body {
+  padding: 24px;
+}
+
+.product-price {
+  font-weight: 600;
+  color: #cfa968;
+}
+

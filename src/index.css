@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
+
+:root {
+  --color-dark: #0f0f0f;
+  --color-gold: #cfa968;
+  --color-cream: #f8f5ef;
+  --color-muted: #6f6f6f;
+  --font-heading: "Playfair Display", "Times New Roman", serif;
+  --font-body: "Playfair Display", "Times New Roman", serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Playfair Display", "Times New Roman", serif;
+}
+
+body {
+  margin: 0;
+  font-family: "Playfair Display", "Times New Roman", serif;
+  background-color: #ffffff;
+  color: #1b1b1b;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+.section-eyebrow {
+  color: var(--color-gold);
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  font-size: 0.85rem;
+}
+
+.section-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4vw, 2.9rem);
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.section-lead {
+  font-size: 1.05rem;
+  color: var(--color-muted);
+}
+
+.gold-btn {
+  background-color: #bb8b3e;
+  width: 200px;
+  border: none;
+  padding: 16px;  
+  border-radius: 2px;  
+  font-weight: 600;
+  font-size: 1rem;
+  color: #eeeeee;
+  transition: 0.3s ease;
+  margin-left: 25px;  
+}
+
+.gold-btn:hover {
+  background-color: #b8904f;
+  transform: translateY(-2px);
+}
+
+.rating {
+  color: var(--color-gold);
+  letter-spacing: 0.15em;
+  font-size: 0.9rem;
+}

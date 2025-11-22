@@ -1,0 +1,33 @@
+.blog-section {
+  padding: 90px 0;
+  background-color: #f8f5ef;
+}
+
+.blog-card {
+  border-radius: 8px;
+  background-color: #ffffff;
+  overflow: hidden;
+  /* box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08); */
+}
+
+.blog-photo {
+  background-color: #f8f5ef;
+  height: 220px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.85rem;
+  color: #333333;
+}
+
+.blog-body {
+  padding: 28px;
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  color: #cfa968;
+  font-weight: 600;
+  padding: 0;
+}
+

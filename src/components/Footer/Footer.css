@@ -1,0 +1,66 @@
+.site-footer {
+  background-color: var(--color-dark);
+  color: #ffffff;
+}
+
+.footer-gallery .gallery-tile {
+  min-height: 180px;
+  border : 1px solid #c9c6c6;
+  background-color: #f8f5ef;
+  color: #5c4f3b;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+
+}
+
+.nav-logo img {
+  width: 52px;
+  height: 52px;
+}
+
+.footer-main {
+  padding: 60px 0 40px;
+}
+
+.footer-brand h4 {
+  font-family: var(--font-heading);
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+
+.footer-logo-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--color-gold);
+  color: #111111;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.footer-links {
+  gap: 18px;
+  font-weight: 500;
+}
+
+.footer-links li {
+  color: #d9d9d9;
+  cursor: pointer;
+}
+
+.footer-links li:hover {
+  color: var(--color-gold);
+}
+
+
+@media (max-width: 767px) {
+  .footer-links {
+    gap: 10px;
+  }
+}
+
+

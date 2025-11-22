@@ -1,0 +1,54 @@
+.about-section {
+  padding: 90px 0;
+  background-color: #f8f5ef;
+}
+
+.about-gallery {
+  min-height: 420px;
+}
+
+.about-img {
+  border-radius: 16px;
+  background: #f8f5ef;
+  color: #5d503b;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.about-img-main {
+  height: 360px;
+  padding: 20px;
+}
+
+.about-img-secondary {
+  position: absolute;
+  width: 220px;
+  height: 200px;
+  right: 0;
+  bottom: 0;
+  background: #d9d1c3;
+  color: #ffffff;
+}
+
+.about-list-icon {
+  color: #cfa968;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 991px) {
+  .about-gallery {
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: static;
+  }
+
+  .about-img-secondary {
+    position: static;
+    width: 100%;
+  }
+}
+
